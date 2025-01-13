@@ -4,7 +4,7 @@
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me: Just DM me
 - 😄 Pronouns: He/Him
-- ⚡ Fun fact: I'm a Network Administrator not A software developer.
+- ⚡ Fun fact: I'm a Network Administrator Not a software developer.
 
 <!---
 Flevolan/Flevolan is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.

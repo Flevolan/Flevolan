@@ -1,0 +1,8 @@
+Mijn persoonlijke cheatsheet:
+
+\*file/directory*/
+ls              # geeft alle directories en bestanden weer uit de huidige directories.
+
+
+\*connectie*/
+ssh -l User IP  # Hiermee maak je een remote connectie met een apparaat waarbij je i.p.v User het gebruikersaccount invult en bij IP het IP van het apparaat invult.

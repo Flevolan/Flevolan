@@ -4,6 +4,8 @@ Mijn persoonlijke cheatsheet:
 ls              # Geeft alle directories en bestanden weer uit de huidige directories.
 cd path         # "Change directory" hiermee geef je aan naar welke directory je wil navigeren, bij path zet je je pad naar de directory neer.
 cd --           # Navigeert naar de bovenliggende directory.
+mkdir           # Hiermee maak je een nieuwe directory.
+man of --help   # Hiermee kun je meer informatie opvragen.
 
 \*connectie*/
 ssh -l User IP  # Hiermee maak je een remote connectie met een apparaat waarbij je i.p.v User het gebruikersaccount invult en bij IP het IP van het apparaat invult.

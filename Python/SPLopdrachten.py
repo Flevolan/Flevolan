@@ -17,3 +17,16 @@ print(hobbieLijst)
 x = range(0, 100, 10)
 for n in x:
     print(n)
+
+# opdracht 4 spel_uitslag.py
+Player1 = input("Wat is de score van speler 1? ")
+Player2 = input("Wat is de score van speler 2? ")
+
+if (Player1 > Player2):
+    print("Speler 1 is de winnaar!!!")
+elif (Player2 > Player1):
+    print("Speler 2 is de winnaar!!!")
+elif (Player1 == Player2):
+    print("Het is gelijkspel!")
+else:
+    print("Voer de scores opnieuw in!")

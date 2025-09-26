@@ -6,6 +6,7 @@ cd path         # "Change directory" hiermee geef je aan naar welke directory je
 cd --           # Navigeert naar de bovenliggende directory.
 mkdir           # Hiermee maak je een nieuwe directory.
 man of --help   # Hiermee kun je meer informatie opvragen.
+mv file path    # Hiermee verplaats je een file.
 
 \*connectie*/
 ssh -l User IP  # Hiermee maak je een remote connectie met een apparaat waarbij je i.p.v User het gebruikersaccount invult en bij IP het IP van het apparaat invult.

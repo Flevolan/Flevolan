@@ -19,27 +19,27 @@
 #    print(n)
 
 # opdracht 4 spel_uitslag.py
-Player1 = int(input("Wat is de score van speler 1? "))
-Player2 = int(input("Wat is de score van speler 2? "))
-
-if (Player1 > Player2):
-    print("Speler 1 is de winnaar!!!")
-elif (Player2 > Player1):
-    print("Speler 2 is de winnaar!!!")
-elif (Player1 == Player2):
-    print("Het is gelijkspel!!")
-else:
-    print("Voer de scores opnieuw in!")
+#Player1 = int(input("Wat is de score van speler 1? "))
+#Player2 = int(input("Wat is de score van speler 2? "))
+#
+#if (Player1 > Player2):
+#    print("Speler 1 is de winnaar!!!")
+#elif (Player2 > Player1):
+#    print("Speler 2 is de winnaar!!!")
+#elif (Player1 == Player2):
+#    print("Het is gelijkspel!!")
+#else:
+#    print("Voer de scores opnieuw in!")
 
 # opdracht 5 vermenigvuldigen.py
-getal1 = int(input("Wat is je eerste getal? "))
-getal2 = int(input("Wat is je tweede getal? "))
-
-def vermenigvuldiging():
-    sum = getal1 * getal2
-    print(getal1, " x ", getal2, " = ", sum)
-
-vermenigvuldiging()
+#getal1 = int(input("Wat is je eerste getal? "))
+#getal2 = int(input("Wat is je tweede getal? "))
+#
+#def vermenigvuldiging():
+#    sum = getal1 * getal2
+#    print(getal1, " x ", getal2, " = ", sum)
+#
+#vermenigvuldiging()
 
 # opdracht 6 rijbewijs.py
 leeftijd = float(input("Wat is je leeftijd? "))
@@ -56,7 +56,8 @@ faculteit = int(input("Wat is het magische getal? "))
 
 def faculty():
     basis = 1
-    for i in range(faculteit):
+    for i in range(2, faculteit + 1):
         basis *= i
+    return basis
 
-faculty()
+print(faculty())

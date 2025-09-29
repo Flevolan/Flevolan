@@ -61,3 +61,19 @@ def faculty():
     return basis
 
 print(faculty())
+
+# opdracht 8 stemhokje.py
+Dominique = 1
+Zacharia = 1
+
+MijnPresident = input("Ik kies voor: ")
+
+def presidentsverkiezing():
+    while MijnPresident != "UITSLAG":
+        print(MijnPresident)
+        if MijnPresident == "Dominique":
+            Dominique + 1
+        elif MijnPresident == "Zacharia":
+            Zacharia + 1
+
+    

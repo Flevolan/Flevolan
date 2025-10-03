@@ -68,12 +68,23 @@ Zacharia = 1
 
 MijnPresident = input("Ik kies voor: ")
 
-def presidentsverkiezing():
-    while MijnPresident != "UITSLAG":
-        print(MijnPresident)
-        if MijnPresident == "Dominique":
-            Dominique + 1
-        elif MijnPresident == "Zacharia":
-            Zacharia + 1
 
-    
+while MijnPresident != "UITSLAG":
+    if MijnPresident == "Dominique":
+        Dominique += 1
+        MijnPresident = input("Ik kies voor: ")
+    elif MijnPresident == "Zacharia":
+        Zacharia += 1
+        MijnPresident = input("Ik kies voor: ")
+
+def Uitslag():
+    if (Dominique > Zacharia):
+        print("Dominique is tot president verkozen met", Dominique, "stemmen!")
+    elif (Zacharia > Dominique):
+        print("Zacharia is tot president verkozen met", Zacharia, "stemmen!")
+    else:
+        print("Er komt een herverkiezing!")
+
+Uitslag()
+
+# opdracht 9 
